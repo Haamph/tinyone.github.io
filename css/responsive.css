@@ -1,0 +1,161 @@
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575px) {
+  /* banner part css start */
+
+  .banner_content{
+   text-align: center; 
+  }
+  .banner_icon li a {
+    padding: 20px;
+  }
+  .banner_img{
+    text-align: center;
+  }
+  .banner_img img {
+    padding-top: 30px;
+  }
+
+  /* banner part css end */
+
+  /* common heading part css start */
+
+  .xs_hide{
+    display: none;
+  }
+  .heading p {
+    font-size: 17px;
+  }
+  .heading h4 {
+    font-size: 29px;
+  }
+
+  /* common heading part css end */
+
+  /* features part css start */
+
+  .feat_icon{
+    text-align: center;
+  }
+
+  /* features part css end */
+
+  /* footer part css start */
+
+  .footer_box input[type=text] {
+    width: 297px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .footer_icon ul li a {
+    padding: 10px 12px;
+  }
+  .footer_icon {
+    padding-bottom: 80px;
+  }
+  .footer_address ul {
+    text-align: center;
+    margin-bottom: 56px;
+  }
+  .footer_links{
+    text-align: center;
+  }
+
+  /* footer part css end */
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+  /* banner part css start */
+
+  .banner_content{
+    text-align: center;
+  }
+  .banner_icon li a {
+    padding: 15px;
+  }
+  .banner_img {
+    padding-top: 30px;
+    padding-bottom: 80px;
+  }
+
+  /* banner part css end */
+
+  /* features part css start */
+
+  .feat_icon{
+    text-align: center;
+  }
+  .feat_text {
+    padding-bottom: 50px;
+  }
+  .feat_text h4 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .sm_hide{
+    display: none;
+  }
+
+  /* features part css end */
+
+  /* footer part css start */
+
+  .footer_box input[type=text] {
+    width: 327px;
+  }
+  .footer_icon {
+    padding-bottom: 60px;
+  }
+  .footer_address{
+    text-align: center;
+  }
+  .footer_address ul {
+    margin-bottom: 75px;
+  }
+  .footer_links{
+    text-align: center;
+  }
+
+  /* footer part css end */
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  /* feature part css start */
+
+  .feat_text h4 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .feat_icon{
+    text-align: center;
+  }
+
+  /* feature part css end */
+
+  /* footer part css start */
+
+  .footer_box input[type=text] {
+    width: 532px;
+  }
+
+  /* footer part css end */
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  /* feature part css start */
+
+  .feat_text h4 {
+    font-weight: 700;
+  }
+
+  /* feature part css end */
+
+}

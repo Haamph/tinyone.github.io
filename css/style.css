@@ -195,7 +195,7 @@ footer{
 .footer_address ul li a:hover{
   color: #ffffffa1;
 }
-.footer_links{
+.footer_links ul{
   padding: 0;
 }
 .footer_links ul li a{
